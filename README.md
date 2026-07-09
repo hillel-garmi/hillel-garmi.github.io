@@ -1,1 +1,1 @@
-# hillel-garmi.github.io
+[View my PDF](my-resume.pdf)
