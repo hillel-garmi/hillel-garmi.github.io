@@ -2,14 +2,15 @@
 layout: about
 title: home
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="mailto:hilel.garmi@mail.huji.ac.il"> hilel.garmi@mail.huji.ac.il </a>
+math: true
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: italy.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <a href="mailto:hilel.garmi@mail.huji.ac.il"> Email Me </a>
+  more_info: 
+    # <a href="mailto:hilel.garmi@mail.huji.ac.il"> Email Me </a>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
