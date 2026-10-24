@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am an MSc student of <a href='https://bkadets.github.io/'> Borys Kadets </a> at the Hebrew University of Jerusalem.
 
-  My main interests are number theory and algbraic geometry.
+  My main interests are number theory and algebraic geometry.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -26,6 +26,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
+google_site_verification: cSjo7pV8c7EIIHSWxWFEhMhg01CHoKCh-lDMIRg-HHg
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
