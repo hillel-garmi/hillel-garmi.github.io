@@ -12,6 +12,9 @@ profile:
   more_info: 
     # <a href="mailto:hilel.garmi@mail.huji.ac.il"> Email Me </a>
 selected_papers: true # includes a list of papers marked as "selected={true}"
+bib_types: 
+  - research
+  - conference_talks
 social: false # includes social icons at the bottom of the page
 
 announcements:

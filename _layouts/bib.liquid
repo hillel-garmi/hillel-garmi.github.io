@@ -66,7 +66,7 @@
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
-    <div class="author">
+    {% comment %} <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -162,7 +162,7 @@
         >
         </i>
       {% endif %}
-    </div>
+    </div> {% endcomment %}
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
