@@ -7,7 +7,7 @@ math: true
 
 profile:
   align: right
-  image: italy.jpg
+  image: oberwolfach_night.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
     # <a href="mailto:hilel.garmi@mail.huji.ac.il"> Email Me </a>
