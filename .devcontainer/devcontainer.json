@@ -9,14 +9,21 @@
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "24"
+    },
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
-    },
-    "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {}
+    }
   },
 
-  // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
-  "postAttachCommand": "./bin/entry_point.sh",
+  // The Jekyll image installs Ruby dependencies; use the project's pinned Prettier and Liquid plugin.
+  "postCreateCommand": "npm ci",
+  "waitFor": "postCreateCommand",
+
+  // Start the preview once per container start and let the lifecycle command finish.
+  "postStartCommand": "nohup bash ./bin/entry_point.sh > /tmp/al-folio-jekyll.log 2>&1 < /dev/null &",
+  "forwardPorts": [8080, 35729],
 
   "customizations": {
     "vscode": {
@@ -24,7 +31,8 @@
         "esbenp.prettier-vscode",
         "sissel.shopify-liquid",
         "yzhang.markdown-all-in-one",
-        "openai.chatgpt"
+        "openai.chatgpt@26.1007.21434",
+        "GitHub.vscode-github-actions"
       ],
       "settings": {
         // use prettier code formatter as default formatter

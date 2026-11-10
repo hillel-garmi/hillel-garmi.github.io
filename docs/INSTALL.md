@@ -143,6 +143,11 @@ Most likely, this will solve the problem but it shouldn't really happen. So, ple
 `al-folio` supports [Development Containers](https://containers.dev/supporting).
 For example, when you open the repository with Visual Studio Code (VSCode), it prompts you to install the necessary extension and automatically install everything necessary.
 
+The container installs the Ruby bundle and runs `npm ci` for the project's pinned development tools, including Prettier and its Liquid plugin.
+Jekyll starts in the background each time the container starts, with ports 8080 (preview) and 35729 (LiveReload) forwarded.
+Open `http://localhost:8080` with your configured `baseurl` appended, and inspect `/tmp/al-folio-jekyll.log` inside the container if the preview does not start.
+After changing `.devcontainer` configuration, run **Dev Containers: Rebuild and Reopen in Container** from the VSCode command palette.
+
 ## Local Setup (Legacy, no longer supported)
 
 For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
