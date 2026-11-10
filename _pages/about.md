@@ -15,6 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 bib_types: 
   - research
   - conference_talks
+  - bachelor_thesis
 social: false # includes social icons at the bottom of the page
 
 announcements:
