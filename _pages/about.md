@@ -32,3 +32,5 @@ latest_posts:
 I am an MSc student of <a href='https://bkadets.github.io/'> Borys Kadets </a> at the Hebrew University of Jerusalem.
 
 My main interests are number theory and algebraic geometry.
+
+I am currently looking for a PhD position.
