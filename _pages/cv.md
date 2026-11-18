@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 5
 redirect: /assets/pdf/hilel_garm_cv.pdf
 # cv_pdf: /assets/pdf/hilel_garm_cv.pdf # you can also use external links here
