@@ -9,10 +9,10 @@ profile:
   align: right
   image: oberwolfach_day.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info:
     # <a href="mailto:hilel.garmi@mail.huji.ac.il"> Email Me </a>
 selected_papers: true # includes a list of papers marked as "selected={true}"
-bib_types: 
+bib_types:
   - research
   - conference_talks
   - bachelor_thesis
@@ -32,3 +32,5 @@ latest_posts:
 I am an MSc student of <a href='https://bkadets.github.io/'> Borys Kadets </a> at the Hebrew University of Jerusalem.
 
 My main interests are number theory and algebraic geometry.
+
+I am currently looking for a PhD position.
